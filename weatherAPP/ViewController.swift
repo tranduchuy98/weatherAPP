@@ -41,12 +41,16 @@ class ViewController: UIViewController {
             self.ciTy.text = "Hà Nội"
             self.imageIcon.image = iconImage
             self.textDetail.text = "\(weather.tem_c)℃"
-            self.textDetaill.text = weather.text
+         //   self.textDetaill.text = weather.text
             Dataservice.shared.iconSetBackgound = weather.icon
             self.backgroundImage.image = Dataservice.shared.setBacgoundDay()
             self.tableView.reloadData()
             self.spinDer.stopAnimating()
             
+        }
+        
+        Dataservice.shared.getDataAPI24Hour { (weather) in
+            print(weather.arrWeather24hour[1].main)
         }
         
     }

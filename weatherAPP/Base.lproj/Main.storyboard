@@ -37,7 +37,7 @@
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11K-C3-lb3">
                                         <rect key="frame" x="187.5" y="0.0" width="187.5" height="160"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -130,12 +130,6 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3JL-b0-N4v">
-                                <rect key="frame" x="0.0" y="180" width="375" height="87"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -144,18 +138,13 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cr1-oS-baH" secondAttribute="trailing" id="Cf5-HW-RRb"/>
                             <constraint firstItem="cr1-oS-baH" firstAttribute="height" secondItem="ebh-sg-pg5" secondAttribute="height" multiplier="2/5" id="FNT-cE-Ezu"/>
                             <constraint firstItem="cr1-oS-baH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Fnn-xs-L5E"/>
-                            <constraint firstItem="ebh-sg-pg5" firstAttribute="top" secondItem="3JL-b0-N4v" secondAttribute="bottom" id="Hgw-gp-hF8"/>
-                            <constraint firstItem="3JL-b0-N4v" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IBn-Ok-kHe"/>
                             <constraint firstItem="i2X-hH-O4i" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XDz-IN-TPz"/>
                             <constraint firstItem="i2X-hH-O4i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YBh-7T-g8M"/>
                             <constraint firstItem="ebh-sg-pg5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="YP3-ER-kNs"/>
-                            <constraint firstItem="3JL-b0-N4v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YeT-VZ-CPT"/>
-                            <constraint firstItem="3JL-b0-N4v" firstAttribute="top" secondItem="cr1-oS-baH" secondAttribute="bottom" id="aPM-xB-d8K"/>
                             <constraint firstItem="rgg-4D-aLi" firstAttribute="trailing" secondItem="cr1-oS-baH" secondAttribute="trailing" id="cuw-D6-B2x"/>
                             <constraint firstItem="ebh-sg-pg5" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="3/5" id="eBU-a1-Yh2"/>
                             <constraint firstItem="rgg-4D-aLi" firstAttribute="leading" secondItem="cr1-oS-baH" secondAttribute="leading" id="ieD-DK-0lG"/>
                             <constraint firstItem="ebh-sg-pg5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kLe-M3-GlH"/>
-                            <constraint firstItem="ebh-sg-pg5" firstAttribute="top" secondItem="3JL-b0-N4v" secondAttribute="bottom" id="qAW-Kz-Kmm"/>
                             <constraint firstItem="rgg-4D-aLi" firstAttribute="centerY" secondItem="i2X-hH-O4i" secondAttribute="centerY" id="yWe-qb-VjC"/>
                             <constraint firstItem="rgg-4D-aLi" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="yvj-PG-Sx4"/>
                         </constraints>
@@ -168,7 +157,6 @@
                         <outlet property="spinDer" destination="i2X-hH-O4i" id="Aov-3t-Df5"/>
                         <outlet property="tableView" destination="ebh-sg-pg5" id="6h8-he-m04"/>
                         <outlet property="textDetail" destination="11K-C3-lb3" id="L1m-pJ-RmN"/>
-                        <outlet property="textDetaill" destination="3JL-b0-N4v" id="Gp5-8M-qkn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
