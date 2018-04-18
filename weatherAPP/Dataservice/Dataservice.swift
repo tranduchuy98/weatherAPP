@@ -12,6 +12,7 @@ class Dataservice {
     static let shared: Dataservice = Dataservice()
     var iconSetBackgound: String?
     var arrWeather: [WeatherDay] = []
+    var arrColectionView: [List] = []
     func getDataAPI(complete: @escaping (Weather)->Void) {
         let urlString = "https://api.apixu.com/v1/forecast.json?key=fe5d02d695944feca8292137181204&q=Hanoi&days=7&lang=vi"
         let urlString24Hour = "http://api.openweathermap.org/data/2.5/forecast?q=Hanoi&APPID=26f5c851bec66e093e6dd6919008f381"
@@ -53,7 +54,7 @@ class Dataservice {
         else{if iconSetBackgound == "//cdn.apixu.com/weather/64x64/day/143.png" ?? "//cdn.apixu.com/weather/64x64/day/200.png"  ?? "//cdn.apixu.com/weather/64x64/day/112.png" {return UIImage(named: "AmU")!}
         else {if iconSetBackgound == "//cdn.apixu.com/weather/64x64/day/116.png" ?? "//cdn.apixu.com/weather/64x64/day/113.png" {return UIImage(named: "troiNang")!}}
         }
-        return UIImage(named: "troiNang")!
+        return UIImage(named: "dem")!
     }
     
     
